@@ -1,0 +1,7 @@
+s = "10000\n"
+
+for i in range(10000):
+    s += "1 100000\n"
+    
+with open("test.txt", "w") as b:
+    b.write(s)
